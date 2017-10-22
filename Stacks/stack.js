@@ -1,4 +1,4 @@
-// Implementing Stack Data Structure by using Primitive data type 'string' ( no arrays used)
+// Implementing Stack by using 'string' in ES6
 // For separating each element I'm using '***' at the beginning of each element
 
 class Stack {
@@ -8,7 +8,7 @@ class Stack {
         this.storage = "";
     }
     
-    // add an element at the end 
+    // push - add an element at the end 
     push(val) {
         
         //concat new element with existing data structure
@@ -16,7 +16,7 @@ class Stack {
         return this.storage;
     }
     
-    // remove an element from the end
+    // pop - remove an element from the end
     pop() {
         
         // slice the last element from last index of  '***' and add it to the temporary variable 
@@ -29,7 +29,7 @@ class Stack {
         return removingElement;
     }
     
-    // size of a stack
+    // size - size of a stack
     size() {
         
         // split the string into array and count the size
@@ -38,23 +38,48 @@ class Stack {
         // size-1 because need not to count intital empty string
         return arrForSize.length - 1;
     }
+    
+    // peek - for returning element from the top
+    peek() {
+        // slice the top element by using last index of  '***'
+        const topElement = this.storage.slice(this.storage.lastIndexOf('***') + 3);
+        return topElement;
+    }
+    
+    // isEmpty - to check whether the stack is empty or not => true - empty, false - not empty
+    isEmpty() {
+        if(this.storage === "") {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    // clear - to empty the stack
+    clear() {
+        this.storage = "";
+        return this.storage;
+    }
 }
 
 let myStack = new Stack();
 
-// push an element
+// push
 myStack.push('Red');
 myStack.push('Pink');
 myStack.push('Blue');
 
-//console.log(myStack);
-
-// remove an element
+// pop
 myStack.pop();
 
-//console.log(myStack);
+// size 
+console.log(myStack.size(););
 
-// size of a stack
-const size = myStack.size();
+// peek
+console.log(myStack.peek());
 
-//console.log(size);
+// clear
+myStack.clear();
+
+// isEmpty
+console.log(myStack.isEmpty());
