@@ -12,7 +12,7 @@ class Stack {
     push(val) {
         
         //concat new element with existing data structure
-        this.storage = this.storage.concat('***', val);
+        this.storage = this.storage.concat('***', val.toString());
         return this.storage;
     }
     
@@ -48,7 +48,7 @@ class Stack {
     
     // isEmpty - to check whether the stack is empty or not => true - empty, false - not empty
     isEmpty() {
-        if(this.storage === "") {
+        if(this.storage.length === 0) {
             return true;
         } else {
             return false;
@@ -73,7 +73,7 @@ myStack.push('Blue');
 myStack.pop();
 
 // size 
-console.log(myStack.size(););
+console.log(myStack.size());
 
 // peek
 console.log(myStack.peek());
