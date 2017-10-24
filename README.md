@@ -19,5 +19,8 @@ This repo is under construction.
 ### <a name="queues"></a>1. Queues
 1. queue.html
 2. queue.js - implementation of queue by using ES6 class and the methods like enqueue, dequeue, size, peek, isEmpty, clear, contains, print
+3. Application
+- Hot Popato Game (Circular Queue)
+- Priority Queue
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
