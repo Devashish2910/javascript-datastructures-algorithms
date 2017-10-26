@@ -10,7 +10,7 @@ This repo is under construction.
 2. [Queues](#queues)
 3. [Recursion](#recursion)
 
-### <a name="stacks"></a>1. Stackes
+### <a name="stacks"></a>1. [Stackes][1]
 1. stack.html
 2. stack.js - implementation of stack by using ES6 class and the methods like Push, Pop, Size, Peek, isEmpty, clear
 3. Application
@@ -39,3 +39,5 @@ This repo is under construction.
 
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
+
+[1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.%20Stacks
