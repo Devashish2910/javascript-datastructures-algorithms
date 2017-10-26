@@ -2,7 +2,7 @@ Data Structures and Algorithms in JavaScript
 ====================================
 This repo is particularly about implementation of different Data Structures (some of their real life problem solving, too) and Algorithms in JavaScript.
 
-# Warning:
+# Warning:⚠️
 This repo is under construction.
 
 # Table Of Content:
