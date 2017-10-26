@@ -10,21 +10,21 @@ This repo is under construction.
 2. [Queues](#queues)
 3. [Recursion](#recursion)
 
-### <a name="stacks"></a>1. [Stackes][1]
+### <a name="stacks"></a>[1. Stackes][1]
 1. stack.html
 2. stack.js - implementation of stack by using ES6 class and the methods like Push, Pop, Size, Peek, isEmpty, clear
 3. Application
 - Decimal To Binary Convertor
 - Balanced Parenthesis Problem
 
-### <a name="queues"></a>2. Queues
+### <a name="queues"></a>[2. Queues][2]
 1. queue.html
 2. queue.js - implementation of queue by using ES6 class and the methods like enqueue, dequeue, size, peek, isEmpty, clear, contains, print
 3. Application
 - Hot Popato Game (Circular Queue)
 - Priority Queue
 
-### <a name="recursion"></a>3. Recursion
+### <a name="recursion"></a>[3. Recursion][3]
 1. recursion.html
 2. looping.js
 - Write a function that loops through the numbers n down to 0. With while loop.
@@ -41,3 +41,5 @@ This repo is under construction.
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
 [1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.%20Stacks
+[2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2%20.Queues
+[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3%20.Recursion
