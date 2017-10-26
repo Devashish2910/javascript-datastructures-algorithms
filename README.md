@@ -36,7 +36,8 @@ This repo is under construction.
 - Write a function 'recursiveMultiplier' that takes two arguments, 'arr and num', and multiplies each arr value into by num and returns an array of the values.
 5. recursiveReverse.js
 - Write a function 'recursiveReverse' that takes an array and uses recursion to return its contents in reverse
-
+6. factorial.js
+- Implement a recursive function which gives factorial of a given number.
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
