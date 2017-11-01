@@ -38,7 +38,8 @@ This repo is under construction.
 - Write a function 'recursiveReverse' that takes an array and uses recursion to return its contents in reverse
 6. factorial.js
 - Implement a recursive function which gives factorial of a given number.
-
+7. reverse.js
+- Implement a function that will reverse a string recursively.
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
 [1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.%20Stacks
