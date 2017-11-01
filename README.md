@@ -45,5 +45,5 @@ This repo is under construction.
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
 [1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.%20Stacks
-[2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2%20.Queues
-[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3%20.Recursion
+[2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2.%20Queues
+[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.%20Recursion
