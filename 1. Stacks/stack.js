@@ -62,7 +62,7 @@ class Stack {
     }
 }
 
-let myStack = new Stack();
+/*let myStack = new Stack();
 
 // push
 myStack.push('Red');
@@ -82,4 +82,4 @@ console.log(myStack.peek());
 myStack.clear();
 
 // isEmpty
-console.log(myStack.isEmpty());
+console.log(myStack.isEmpty());*/
