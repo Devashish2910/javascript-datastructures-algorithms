@@ -24,6 +24,7 @@ This repo is under construction.
 3. Application
 - Hot Popato Game (Circular Queue)
 - Priority Queue
+- Queue From Two Stacks
 
 ### <a name="recursion"></a>[3. Recursion][3]
 1. recursion.html
