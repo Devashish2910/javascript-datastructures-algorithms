@@ -42,6 +42,8 @@ This repo is under construction.
 - Implement a recursive function which gives factorial of a given number.
 7. reverse.js
 - Implement a function that will reverse a string recursively.
+8. fibonacci.js
+- Implement Fibonacci Series With Recursion.
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
