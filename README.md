@@ -33,16 +33,17 @@ This repo is under construction.
 - Next, try looping just like above except using recursion
 3. exponent.js
 - Write a function 'exponent' that takes two arguments base, and expo, uses a while loop to return the exponenet value of the base.
+4. recursiveExponent.js
 - Write a function 'RecursiveExponent' that takes two arguments base, and expo, recursively returns exponent value of the base.
-4. recursiveMultiplier.js
+5. recursiveMultiplier.js
 - Write a function 'recursiveMultiplier' that takes two arguments, 'arr and num', and multiplies each arr value into by num and returns an array of the values.
-5. recursiveReverse.js
+6. recursiveReverse.js
 - Write a function 'recursiveReverse' that takes an array and uses recursion to return its contents in reverse
-6. factorial.js
+7. factorial.js
 - Implement a recursive function which gives factorial of a given number.
-7. reverse.js
+8. reverse.js
 - Implement a function that will reverse a string recursively.
-8. fibonacci.js
+9. fibonacci.js
 - Implement Fibonacci Series With Recursion.
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
