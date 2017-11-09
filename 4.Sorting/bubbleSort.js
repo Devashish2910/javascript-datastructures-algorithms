@@ -22,7 +22,6 @@ bubbleSort = (...list) => {
             }
         }
     }
-    
     return list;
 };
 
