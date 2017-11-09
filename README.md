@@ -47,7 +47,9 @@ This repo is under construction.
 9. fibonacci.js
 - Implement Fibonacci Series With Recursion.
 
-### <a name="sorting"></a>[3. Sorting Algorithms][4]
+### <a name="sorting"></a>[4. Sorting Algorithms][4]
+1. bubblesSort.js
+- Implementation of Bubble Sort Algorithm.
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
