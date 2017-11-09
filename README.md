@@ -9,6 +9,7 @@ This repo is under construction.
 1. [Stacks](#stacks)
 2. [Queues](#queues)
 3. [Recursion](#recursion)
+4. [Sorting Algorithms](#sorting)
 
 ### <a name="stacks"></a>[1. Stackes][1]
 1. stack.html
@@ -46,8 +47,11 @@ This repo is under construction.
 9. fibonacci.js
 - Implement Fibonacci Series With Recursion.
 
+### <a name="sorting"></a>[3. Sorting Algorithms][4]
+
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
-[1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.%20Stacks
-[2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2.%20Queues
-[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.%20Recursion
+[1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.Stacks
+[2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2.Queues
+[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.Recursion
+[4]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/4.Sorting
