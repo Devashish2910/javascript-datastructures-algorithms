@@ -14,7 +14,7 @@ Pseudocode:
          count = 0
      }
      push A[count] in ResA
-     remove A[count]
+     remove A[count] from A
     }
 
 
