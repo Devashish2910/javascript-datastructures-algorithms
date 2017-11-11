@@ -51,6 +51,12 @@ This repo is under construction.
 1. bubblesSort.js
 - Implementation of Bubble Sort Algorithm.
 
+2. selectionSort.js
+- Implemetation of Selection Sort Algorithm.
+
+3. insertionSort.js
+i Implementation of Insertion Sort Algorithm.
+
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 
 [1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.Stacks
