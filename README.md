@@ -55,7 +55,7 @@ This repo is under construction.
 - Implemetation of Selection Sort Algorithm.
 
 3. insertionSort.js
-i Implementation of Insertion Sort Algorithm.
+- Implementation of Insertion Sort Algorithm.
 
 _Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
 

@@ -1,5 +1,5 @@
 /*
-Implementation of Insertion Sort.
+Insertion Sort - Selects the first element in an array, pushes it into a new array. As each new element is added, insert the new element in the correct order.
 Time Coplexity - O(n^2)
 
 Pseudocode:
@@ -40,5 +40,5 @@ insertionSort = (...list) => {
     return resultList;
 };
 
-const result = insertionSort(10, 1,12,4, 5, 12, 1);
-console.log(result);
+// const result = insertionSort(10, 1,12,4, 5, 12, 1);
+// console.log(result);

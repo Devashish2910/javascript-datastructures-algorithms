@@ -1,4 +1,6 @@
 /*
+Bubble Sort - Bubble up the largerst element to the top of the data structure
+
 Time Coplexity: O(n^2)
 Space Complexity: O(1)
 
