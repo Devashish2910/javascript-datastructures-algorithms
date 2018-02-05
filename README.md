@@ -18,6 +18,8 @@ This repo is under construction.
 4. Application
 - Decimal To Binary Convertor
 - Balanced Parenthesis Problem
+- Infix to Postfix
+- Infix to Prefix
 
 ### <a name="queues"></a>[2. Queues][2]
 1. queue.html
