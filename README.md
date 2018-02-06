@@ -21,6 +21,7 @@ This repo is under construction.
 - Infix to Postfix
 - Infix to Prefix
 - Evaluation of Postfix
+- Largest area under histogram
 
 ### <a name="queues"></a>[2. Queues][2]
 1. queue.html
