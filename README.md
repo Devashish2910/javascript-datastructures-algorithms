@@ -20,6 +20,7 @@ This repo is under construction.
 - Balanced Parenthesis Problem
 - Infix to Postfix
 - Infix to Prefix
+- Evaluation of Postfix
 
 ### <a name="queues"></a>[2. Queues][2]
 1. queue.html
