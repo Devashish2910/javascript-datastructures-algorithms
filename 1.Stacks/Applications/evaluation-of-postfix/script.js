@@ -1,9 +1,8 @@
 // Implementation of Evaluation of Postfix 
-
 /*
-    *---- Implementation of Stack & Infix to Postfix----*
-    *---- Ignore This ----*
-*/
+ *---- Implementation of Stack & Infix to Postfix----*
+ *---- Ignore This ----*
+ */
 class Stack {
     constructor(capacity = Infinity) {
         this._capacity = capacity;
@@ -137,59 +136,59 @@ infixToPostfix = str => {
         }
         i++;
     }
-    return postfix._storage;
+    return postfix._storage.reverse();
 };
-
 /*
-    *---- Out solution starts from here ----*
-*/
-
-let tempStack = new Stack(),
-    operand1, operand2, result;
-
+ *---- Out solution starts from here ----*
+ */
+let tempStack = new Stack()
+    , operand1, operand2, result;
 solution = postfixStack => {
-    let i = postfixStack.size() - 1;
-    while(i >= 0) {
+    let i = postfixStack.length - 1;
+    while (i >= 0) {
         const top = postfixStack[i];
-        
-        if(operator.indexOf(top) === -1) { //It's an operand
-            tempStack.push(postfixStack.pop());
-            i--;  
-        } else if (operator.indexOf(top) >= 0) { //It's an oprator
+        //console.log('Top: ' + top);
+        if (operator.indexOf(top) === -1) { //It's an operand
+            tempStack.push(parseInt(postfixStack.pop()));
+            //console.log(tempStack._storage);
+            i--;
+        }
+        else if (operator.indexOf(top) >= 0) { //It's an oprator
             operand2 = tempStack.pop();
             operand1 = tempStack.pop();
-            const idexOfOperator = operator.indexOf(top);
-            
-            switch(idexOfOperator) {
-                case '0':
-                    result = operand2 ^ operand1;
-                    tempStack.push(result);
-                    break;
-                case '1':
-                    result = operand2 * operand1;
-                    tempStack.push(result);
-                    break;
-                case '2':
-                    result = operand2 / operand1;
-                    tempStack.push(result);
-                    break;
-                case '3':
-                    result = operand2 % operand1;
-                    tempStack.push(result);
-                    break;
-                case '4':
-                    result = operand2 + operand1;
-                    tempStack.push(result);
-                    break;
-                case '5':
-                    result = operand2 - operand1;
-                    tempStack.push(result);
-                    break;
-                    
+            const indxOptr = operator.indexOf(top);
+            postfixStack.pop();
+            switch (indxOptr) {
+            case 0:
+                result = operand2 ^ operand1;
+                tempStack.push(result);
+                break;
+            case 1:
+                result = operand2 * operand1;
+                tempStack.push(result);
+                break;
+            case 2:
+                result = operand2 / operand1;
+                tempStack.push(result);
+                break;
+            case 3:
+                result = operand2 % operand1;
+                tempStack.push(result);
+                break;
+            case 4:
+                result = operand2 + operand1;
+                tempStack.push(result);
+                break;
+            case 5:
+                result = operand2 - operand1;
+                tempStack.push(result);
+                break;
             }
+            //console.log(tempStack._storage);
             i--;
         }
     }
+    return tempStack;
 };
-
-solution(infixToPostfix('5+(3*2+(5?5)+7)-1'))
+const answer = solution(infixToPostfix('5+(3*2+(5?5)+7)-9'));
+console.log(answer);
