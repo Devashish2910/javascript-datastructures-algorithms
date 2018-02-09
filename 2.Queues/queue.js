@@ -13,67 +13,80 @@
 */
 class Queue {
     constructor(capacity = Infinity) {
-        this._capacity = capacity;
-        this._storage = {};
-        this._head = 0;
-        this._tail = 0;
+        this.capacity = capacity;
+        this.storage = {};
+        this.head = 0;
+        this.tail = 0;
     }
-    enqueue(value) {
-        const sizeOfQueue = this._tail - this._head;
-        if (sizeOfQueue < this._capacity) {
-            this._storage[this._tail] = value;
-            this._tail++;
-            return this._storage;
+    enqueue(val) {
+        const sizeOfQueue = this.tail - this.head;
+        if (sizeOfQueue < this.capacity) {
+            this.storage[this.tail] = val;
+            this.tail++;
+            return this.storage;
         }
-        return `Max Capacity has reached. Delete some lements first.`;
+        return "QUEUE IS FULL";
     }
     dequeue() {
-        const sizeOfQueue = this._tail - this._head;
-        if (sizeOfQueue < 1) {
-            return `No elements to be deleted`;
+        const sizeOfQueue = this.tail - this.head;
+        if (sizeOfQueue > 0) {
+            const val = this.storage[this.head];
+            delete this.storage[this.head];
+            this.head++;
+            return val;
         }
-        const elementToBeDeleted = this._storage[this._head];
-        delete this._storage[this._head];
-        if (this._head < this._tail) {
-            this._head++;
-        }
-        return elementToBeDeleted;
-    }
-    peek() {
-        return this._storage[this._head];
-    }
-    size() {
-        return this._tail - this._head;
-    }
-    contains(value) {
-        for (let i = this._head; i < this._tail; i++) {
-            if (this._storage[i] === value) {
-                return true;
-            }
-            return false;
-        }
+        return
     }
     isEmpty() {
-        const sizeOfQueue = this._tail - this._head;
-        if (sizeOfQueue < 1) {
-            return true;
+        const sizeOfQueue = this.tail - this.head;
+        if (sizeOfQueue > 0) {
+            return false;
         }
-        return false;
+        return true;
     }
-    print() {
-        if (this._tail > this._head) {
-            for (let i = this._head; i < this._tail; i++) {
-                console.log(this._storage[i]);
+    peek() {
+        const sizeOfQueue = this.tail - this.head;
+        if (sizeOfQueue > 0) {
+            return this.storage[this.tail - 1];
+        }
+        return undefined;
+    }
+    front() {
+        const sizeOfQueue = this.tail - this.head;
+        if (sizeOfQueue > 0) {
+            return this.storage[this.head];
+        }
+        return undefined;
+    }
+    size() {
+        return this.tail - this.head;
+    }
+    contains(val) {
+        let answer = false;
+        for (let i = this.head; i < this.tail; i++) {
+            if (this.storage[i] === val) {
+                answer = true;
             }
         }
-        return -1;
+        return answer;
     }
+    print() {
+       if(this.head < this.tail) {
+           for(let i = this.head; i < this.tail; i++) {
+               console.log(this.storage[i]);
+           }
+       } else {
+           return -1;
+       }
+    }
+    
     clear() {
-        this._storage = {};
-        this._head = 0;
-        this._tail = 0;
+        this.storage = {};
+        this.head = [];
+        this.tail = [];
     }
 }
+
 /*
 
 const myQueue = new Queue(5);
