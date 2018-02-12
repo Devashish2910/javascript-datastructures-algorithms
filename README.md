@@ -8,6 +8,7 @@ This repo is under construction.
 # Table Of Content:
 1. [Stacks](#stacks)
 2. [Queues](#queues)
+3. [Linked List](#linkedlist)
 3. [Recursion](#recursion)
 4. [Sorting Algorithms](#sorting)
 
@@ -31,7 +32,12 @@ This repo is under construction.
 - Priority Queue
 - Queue From Two Stacks
 
-### <a name="recursion"></a>[3. Recursion][3]
+### <a name="linkedlist"></a>[3. Linked List][5]
+1. linkedlist.html
+2. linkedlist.js - implementation of Linked List with operations on it
+3. Application
+
+### <a name="recursion"></a>[Recursion][3]
 1. recursion.html
 2. looping.js
 - Write a function that loops through the numbers n down to 0. With while loop.
@@ -51,7 +57,7 @@ This repo is under construction.
 9. fibonacci.js
 - Implement Fibonacci Series With Recursion.
 
-### <a name="sorting"></a>[4. Sorting Algorithms][4]
+### <a name="sorting"></a>[Sorting Algorithms][4]
 1. bubblesSort.js
 - Implementation of Bubble Sort Algorithm.
 
@@ -65,5 +71,6 @@ _Any suggestions and questiones are welcomed. Please email me at devashish2910@g
 
 [1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.Stacks
 [2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2.Queues
-[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.Recursion
-[4]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/4.Sorting
+[3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Recursion
+[4]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Sorting
+[5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/LinkedList
