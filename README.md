@@ -73,4 +73,4 @@ _Any suggestions and questiones are welcomed. Please email me at devashish2910@g
 [2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2.Queues
 [3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Recursion
 [4]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Sorting
-[5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/LinkedList
+[5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.LinkedList
