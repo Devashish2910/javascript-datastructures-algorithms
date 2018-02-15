@@ -104,6 +104,7 @@ class LinkedList extends Node {
       return null;
     }
   }
+  
 
   // To return an index of list element
   indexOf(el) {
