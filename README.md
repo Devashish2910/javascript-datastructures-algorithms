@@ -1,8 +1,8 @@
 Data Structures and Algorithms in JavaScript
 ====================================
-This repo is particularly about implementation of different Data Structures (some of their real life problem solving, too) and Algorithms in JavaScript.
+This repo is particularly about implementation of different Data Structures (some of their real life problem solving, too) and Algorithms in JavaScript(ES6).
 
-# Warning:⚠️
+# Warning:⚠️🤔
 This repo is under construction.
 
 # Table Of Content:
@@ -69,7 +69,7 @@ This repo is under construction.
 3. insertionSort.js
 - Implementation of Insertion Sort Algorithm.
 
-_Any suggestions and questiones are welcomed. Please email me at devashish2910@gmail.com to share your suggestions_
+_Any suggestions and questiones are welcomed. Please email me at devashish.patel@students.tamuk.edu to share your suggestions_
 
 [1]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/1.Stacks
 [2]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/2.Queues
