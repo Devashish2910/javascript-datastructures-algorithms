@@ -212,4 +212,3 @@ console.log(`IndexOf: ${list.indexOf("Patel")}`);
 console.log(`Is Empty: ${list.isEmpty()}`);
 
 list.print();
-
