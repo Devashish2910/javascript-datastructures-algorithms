@@ -37,6 +37,7 @@ This repo is under construction.
 2. linkedlist.js - implementation of Linked List with operations on it
 3. Application
 - Doubly Linked List and methods on it
+- Circular Linked List and methods on it
 
 ### <a name="recursion"></a>[Recursion][3]
 1. recursion.html
