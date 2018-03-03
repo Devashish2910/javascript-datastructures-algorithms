@@ -1,7 +1,7 @@
 // Implementing Stack by using 'string' in ES6
 // For separating each element I'm using '***' at the beginning of each element
 
-class Stack {
+ export class Stack {
     constructor(storage) {
         
         // an empty string as raw data structure
@@ -60,6 +60,10 @@ class Stack {
         this.storage = "";
         return this.storage;
     }
+}
+
+ export const hello = () => {
+    console.log("Hello World!")
 }
 
 /*let myStack = new Stack();

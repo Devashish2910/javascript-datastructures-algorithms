@@ -25,9 +25,8 @@ class queueElement {
         this._priority = priority;
     }
 }
-class PriorityQueue extends queueElement {
-    constructor(value, priority, capacity = Infinity) {
-        super();
+class PriorityQueue {
+    constructor(capacity = Infinity) {
         this._capacity = capacity;
         this._storage = [];
     }
