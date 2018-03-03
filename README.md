@@ -9,8 +9,9 @@ This repo is under construction.
 1. [Stacks](#stacks)
 2. [Queues](#queues)
 3. [Linked List](#linkedlist)
-3. [Recursion](#recursion)
-4. [Sorting Algorithms](#sorting)
+4. [Set](#set)
+4. [Recursion](#recursion)
+5. [Sorting Algorithms](#sorting)
 
 ### <a name="stacks"></a>[1. Stackes][1]
 1. stack.html
@@ -38,6 +39,9 @@ This repo is under construction.
 3. Application
 - Doubly Linked List and methods on it
 - Circular Linked List and methods on it
+
+### <a name="set"></a>[4. Set][6]
+1. set.js - implementation of set and methods on it
 
 ### <a name="recursion"></a>[Recursion][3]
 1. recursion.html
@@ -76,3 +80,4 @@ _Any suggestions and questiones are welcomed. Please email me at devashish.patel
 [3]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Recursion
 [4]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Sorting
 [5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.LinkedList
+[6]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/4.Set
