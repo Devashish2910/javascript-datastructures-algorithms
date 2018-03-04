@@ -41,7 +41,7 @@ const size = students.size;
  students.delete("K00401439");
 
  // Clear whole Map
- students.clear()
+ students.clear();
 
 // Array to Map and Map to Array
 let kvArray = [['key1', 'value1'], ['key2', 'value2']];
@@ -51,4 +51,4 @@ let kvArray = [['key1', 'value1'], ['key2', 'value2']];
  console.log(myMap);
 
  kvArray  = Array.from(myMap);
- console.log(kvArray)
+ console.log(kvArray);

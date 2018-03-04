@@ -42,10 +42,12 @@ This repo is under construction.
 - Circular Linked List and methods on it
 
 ### <a name="set"></a>[4. Set][6]
-1. set.js - implementation of in-built data-structures Set and uses of its methods 
+1. set.js - implementation of in-built data-structure 'Set' and uses of its methods 
 
 ### <a name="map"></a>[5. Map][7]
-1. map.js - implementation of in-built data-structures Map (Dictionary) and uses of its methods
+1. map.js - implementation of in-built data-structure 'Map' (Dictionary) and uses of its methods
+2. HashMap
+   - hashMap.js - implementation of data-structure 'HashMap' and some methods on it
 
 ### <a name="recursion"></a>[Recursion][3]
 1. recursion.html
