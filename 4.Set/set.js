@@ -1,16 +1,18 @@
 /*
 * ES6 already has Set class so there is no need to implement it
-* Sets: - Same as Array but stores only unique values, can iterate
+* Sets: - Same as Array but stores only unique values
+* key and value both are same so no index
+* Want to retrieve data from set convert it to array
 * */
 
 // Create a set
-const mySet = new Set();
+let mySet = new Set();
 
 // add elements in set
-mySet.add(1);
-mySet.add(2);
-mySet.add(3);
-mySet.add(1);
+mySet.add("Devashish");
+mySet.add("Ghanshyambhai");
+mySet.add("Patel");
+mySet.add("Devashish");
 
 // size of the set
 const mySetSize = mySet.size;
@@ -32,6 +34,14 @@ console.log(entries);
 mySet.forEach((cur, i) => {
     console.log(`Pos[${i}] = Val[${cur}]`)
 });
+
+// retrieve data from set
+const setToArray = Array.from(mySet)
+console.log(setToArray);
+
+// convert set from array
+mySet = new Set(mySet);
+console.log(mySet);
 
 // delete element from set
 mySet.delete(2);
