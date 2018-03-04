@@ -10,8 +10,9 @@ This repo is under construction.
 2. [Queues](#queues)
 3. [Linked List](#linkedlist)
 4. [Set](#set)
-4. [Recursion](#recursion)
-5. [Sorting Algorithms](#sorting)
+5. [Map](#map)
+6. [Recursion](#recursion)
+7. [Sorting Algorithms](#sorting)
 
 ### <a name="stacks"></a>[1. Stackes][1]
 1. stack.html
@@ -41,7 +42,10 @@ This repo is under construction.
 - Circular Linked List and methods on it
 
 ### <a name="set"></a>[4. Set][6]
-1. set.js - implementation of set and methods on it
+1. set.js - implementation of in-built data-structures Set and uses of its methods 
+
+### <a name="map"></a>[4. Map][6]
+1. map.js - implementation of in-built data-structures Map (Dictionary) and uses of its methods
 
 ### <a name="recursion"></a>[Recursion][3]
 1. recursion.html
