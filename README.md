@@ -44,7 +44,7 @@ This repo is under construction.
 ### <a name="set"></a>[4. Set][6]
 1. set.js - implementation of in-built data-structures Set and uses of its methods 
 
-### <a name="map"></a>[4. Map][6]
+### <a name="map"></a>[5. Map][7]
 1. map.js - implementation of in-built data-structures Map (Dictionary) and uses of its methods
 
 ### <a name="recursion"></a>[Recursion][3]
@@ -85,3 +85,4 @@ _Any suggestions and questiones are welcomed. Please email me at devashish.patel
 [4]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/Sorting
 [5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.LinkedList
 [6]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/4.Set
+[7]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/5.Map
