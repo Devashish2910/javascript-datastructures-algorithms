@@ -8,9 +8,8 @@ class Node { // Data structure for linked list
     this.next = null;
   }
 }
-class LinkedList extends Node {
+class LinkedList {
   constructor(data) {
-    super();
     this.length = 0;
     this.head = null; //Kind of Storage
   }
@@ -74,12 +73,39 @@ class LinkedList extends Node {
         previous.next = null;
       }
       this.length--;
-      return current;
+      return current.data;
     }
     else {
         return null;
     }
   }
+
+  // get elements from top
+  get() {
+      let current, previous, index = 1;
+      if (this.length > 0) {
+          current = this.head;
+          if (this.length === 1) {
+              return current.data;
+          }
+          else {
+              while (index < this.length) {
+                  previous = current;
+                  current = current.next;
+                  index++;
+              }
+          }
+          return current.data;
+      }
+      else {
+          return null;
+      }
+  }
+
+  // get head of the list
+    getHead() {
+      return this.head;
+    }
 
   // To remove node from a specific postion
   removeAt(pos) {
@@ -98,13 +124,34 @@ class LinkedList extends Node {
         previous.next = current.next;
       }
       this.length--;
-      return current;
+      return current.data;
     }
     else {
       return null;
     }
   }
-  
+
+  // get element from a specific position
+  getAt(pos) {
+      let current, previous, index = 1;
+      if (pos > 0 && pos <= this.length) {
+          current = this.head;
+          if (pos === 1) {
+              return current.data;
+          }
+          else {
+              while (index < pos) {
+                  previous = current;
+                  current = current.next;
+                  index++;
+              }
+          }
+          return current.data;
+      }
+      else {
+          return null;
+      }
+  }
 
   // To return an index of list element
   indexOf(el) {
@@ -115,14 +162,14 @@ class LinkedList extends Node {
           current = this.head;
       while (i++ < length) {
         if (i === 1) {
-          if (current.data === el) {
+          if (current.data === el || current.data.hasOwnProperty(el)) {
             return i;
           }
         }
         else {
           previous = current;
           current = current.next;
-          if (current.data === el) {
+          if (current.data === el || current.data.hasOwnProperty(el)) {
             return i;
           }
         }
@@ -179,3 +226,11 @@ class LinkedList extends Node {
     }
   }
 }
+ /*
+const list = new LinkedList();
+list.append({key1: 'value1'})
+list.append({key2: 'value2'})
+console.log(list)
+*/
+
+module.exports = LinkedList;
