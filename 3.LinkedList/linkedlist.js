@@ -11,7 +11,7 @@ class Node { // Data structure for linked list
 class LinkedList {
   constructor(data) {
     this.length = 0;
-    this.head = null; //Kind of Storage
+    this.head = null; //Kind of starting point
   }
 
   // To add a node at the end of the list

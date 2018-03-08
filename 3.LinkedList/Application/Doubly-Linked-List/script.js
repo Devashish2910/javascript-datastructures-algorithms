@@ -10,9 +10,8 @@ class NodeForDLL { // Data structure for linked list
   }
 }
 
-class DoublyLinkedList extends Node {
-  constructor(data) {
-    super();
+class DoublyLinkedList {
+  constructor() {
     this.length = 0;
     this.head = null; 
     this.tail = null;
