@@ -7,34 +7,17 @@ class BST {
         this.max = [];  // to track maximum
     }
 
-    // Private: to track min-max value of the tree
-    _minmax(key) {
-        if (this.min[(this.min.length - 1)] > key) {
-            this.min.push(key)
-        } else {
-            this.min.push(this.min[(this.min.length - 1)])
-        }
-
-        if (this.max[(this.max.length - 1)] < key) {
-            this.max.push(key)
-        } else {
-            this.max.push(this.max[(this.max.length - 1)])
-        }
-    }
-
     // Insert Private: supporting method if tree is not empty
     _insert(newNode, root) {
         if (newNode.key < root.key) {   // newNode key is smaller than root
             if(root.left === null) {
                 root.left = newNode;
-                this._minmax(newNode.key);
             } else {
                 this._insert(newNode, root.left);
             }
         } else {
             if(root.right === null) {   // newNode key is larger than root
                 root.right = newNode;
-                this._minmax(newNode.key);
             } else {
                 this._insert(newNode, root.right);
             }
@@ -50,41 +33,6 @@ class BST {
             this.max.push(newNode.key);
         } else {  // if tree is not empty
              this._insert(newNode, this.root);
-        }
-    }
-
-    // Has Private: supporting method to find element deep in the tree
-    _has(value, node) {
-        if (node.key > value) {
-            if (node.left === null) {
-                return false;
-            } else {
-                if (node.left.key === value) {
-                    return true;
-                } else {
-                    return this._has(value, node.left);
-                }
-            }
-        } else {
-            if (node.right === null) {
-                return false;
-            } else {
-                if (node.right.key === value) {
-                    return true;
-                } else {
-                    return this._has(value, node.right);
-                }
-            }
-        }
-    }
-
-    // Finds tree has a required element or not (returns bool)
-    has(el) {
-        const current = this.root;
-        if (current.key === el) {  // if root is the required element
-            return true;
-        } else {  // if not
-            return this._has(el, current);
         }
     }
 
@@ -132,6 +80,46 @@ class BST {
         const current = this.root;
         this._postOrderTraverseNode(current, callBack);
     }
+
+    // Private: Search min element from tree
+    _min(tree) {
+        if(!tree.left) {
+            return tree.key;
+        } else {
+            return this._min(tree.left);
+        }
+    }
+
+    // finds minimum value from tree
+    minValue() {
+        const current = this.root;
+
+        if (!current.left) {
+            return current.key;
+        } else {
+            return this._min(current);
+        }
+    }
+
+    // Private method for search max element from tree
+    _max(tree) {
+        if (!tree.right) {
+            return tree.key;
+        } else {
+            return this._max(tree.right);
+        }
+    }
+
+    // finds maximum value from tree
+    maxValue() {
+        const current = this.root;
+
+        if(!current.right) {
+            return current.key;
+        } else {
+            return this._max(current);
+        }
+    }
 }
 
 const myTree = new BST();
@@ -145,4 +133,7 @@ myTree.insert(7);
 const sort = (val) => {
     console.log(val);
 }
-myTree.inOrderTraversal(sort)
+//myTree.inOrderTraversal(sort);
+
+const max = myTree.maxValue()
+console.log(max);
