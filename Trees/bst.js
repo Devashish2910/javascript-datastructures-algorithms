@@ -150,15 +150,70 @@ class BST {
             return false;
         }
     }
+
+    // private method to find smallest element in right sub-tree
+    _smallestElementInRightSubtree(subtree) {
+        while (subtree && subtree.left !== null) {
+            subtree = subtree.left;
+        }
+        return subtree;
+    }
+
+    // private method for deletion of an element
+    _delete(value, tree) {
+
+        if(!tree) {
+            return null;
+        }
+
+        if (value < tree.key) {
+            tree.left = this._delete(value, tree.left);
+            return tree;
+        } else if (value > tree.key) {
+            tree.right = this._delete(value, tree.right);
+            return tree;
+        } else {
+            // Case 1: current key has no child
+            if (!tree.left && !tree.right) {
+                tree = null;
+                return tree;
+            }
+
+            // Case 2: current key has a child
+            if(!tree.right && tree.left) {
+                tree = tree.left;
+                return tree;
+            } else if (!tree.left && tree.right) {
+                tree = tree.right;
+                return tree;
+            }
+
+            // Case 3: current key has two children
+            if(tree.left && tree.right) {
+                const aux = this._smallestElementInRightSubtree(tree.right);
+                tree.key = aux.key;
+                tree.right = this._delete(aux.key, tree.right);
+                return tree;
+            }
+        }
+    }
+
+    // method for deletion of an element from tree
+    delete(el) {
+           this.root = this._delete(el, this.root);
+    }
+
 }
 
 const myTree = new BST();
 myTree.insert(10);
-myTree.insert(20);
-myTree.insert(25);
-myTree.insert(27);
 myTree.insert(5);
-myTree.insert(7);
+myTree.insert(4);
+myTree.insert(3);
+myTree.insert(6);
+myTree.insert(12);
+myTree.insert(15);
+myTree.insert(16);
 
 const sort = (val) => {
     console.log(val);
@@ -168,4 +223,7 @@ const sort = (val) => {
 const max = myTree.maxValue()
 //console.log(max);
 
-console.log(myTree.has(7))
+//console.log(myTree.has(7))
+
+myTree.delete(10);
+myTree.inOrderTraversal(sort)
