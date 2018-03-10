@@ -11,8 +11,9 @@ This repo is under construction.
 3. [Linked List](#linkedlist)
 4. [Set](#set)
 5. [Map](#map)
-6. [Recursion](#recursion)
-7. [Sorting Algorithms](#sorting)
+6. [Tree](#tree)
+7. [Recursion](#recursion)
+8. [Sorting Algorithms](#sorting)
 
 ### <a name="stacks"></a>[1. Stackes][1]
 1. stack.html
@@ -48,6 +49,10 @@ This repo is under construction.
 1. map.js - implementation of in-built data-structure 'Map' (Dictionary) and uses of its methods
 2. HashMap
    - hashMap.js - implementation of data-structure 'HashMap' and some methods on it
+   
+### <a name="tree"></a>[6. Tree][8]
+1. bst.js - implementation of in-built data-structure 'Tree' and methods on it
+2. Node.js - a Node class which represents the structure of a node for tree
 
 ### <a name="recursion"></a>[Recursion][3]
 1. recursion.html
@@ -88,3 +93,4 @@ _Any suggestions and questiones are welcomed. Please email me at devashish.patel
 [5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.LinkedList
 [6]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/4.Set
 [7]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/5.Map
+[8]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/6.Tree
