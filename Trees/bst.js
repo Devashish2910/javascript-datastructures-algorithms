@@ -120,6 +120,36 @@ class BST {
             return this._max(current);
         }
     }
+
+    // Private supporting method to check element in the tree
+    _has(value, tree) {
+        if (!tree) {
+            return false;
+        }
+        if (value === tree.key) {
+            return true;
+        }
+        if (value < tree.key) { // value is smaller than current node value
+            return this._has(value, tree.left);
+        } else {  // value is larger than current node value
+            return this._has(value, tree.right);
+        }
+    }
+
+    // method to check element is in tree or not
+    has(el) {
+        const current = this.root;
+
+        if (current) {
+            if (current.key === el) {
+                return true;
+            } else {
+                return this._has(el, current);
+            }
+        } else {
+            return false;
+        }
+    }
 }
 
 const myTree = new BST();
@@ -136,4 +166,6 @@ const sort = (val) => {
 //myTree.inOrderTraversal(sort);
 
 const max = myTree.maxValue()
-console.log(max);
+//console.log(max);
+
+console.log(myTree.has(7))
