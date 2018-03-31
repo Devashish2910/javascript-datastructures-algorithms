@@ -3,8 +3,6 @@ const Node = require('./Node');
 class BST {
     constructor() {
         this.root = null;   // start point
-        this.min = [];  // to track minimum
-        this.max = [];  // to track maximum
     }
 
     // Insert Private: supporting method if tree is not empty
@@ -29,8 +27,6 @@ class BST {
         const newNode = new Node(el);
         if (this.root == null) { // if tree is empty
             this.root = newNode;
-            this.min.push(newNode.key);
-            this.max.push(newNode.key);
         } else {  // if tree is not empty
              this._insert(newNode, this.root);
         }

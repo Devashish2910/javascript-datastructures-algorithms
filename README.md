@@ -2,7 +2,7 @@ Data Structures and Algorithms in JavaScript
 ====================================
 This repo is particularly about implementation of different Data Structures (some of their real life problem solving, too) and Algorithms in JavaScript(ES6).
 
-# Warning:⚠️🤔
+# ⚠ Warning:️ ✍📝💻
 This repo is under construction.
 
 # Table Of Content:
@@ -93,4 +93,4 @@ _Any suggestions and questiones are welcomed. Please email me at devashish.patel
 [5]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/3.LinkedList
 [6]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/4.Set
 [7]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/5.Map
-[8]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/6.Tree
+[8]: https://github.com/Devashish2910/javascript-datastructures-algorithms/tree/master/6.Trees
