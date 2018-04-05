@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43446461-1c61-4c47-88db-15ecf4bbb90c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Problems/String Reversal/stringReversal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/String Reversal/stringReversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stringReversal.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problems/String Reversal/stringReversal.js">
+      <file leaf-file-name="palindromeString.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="palindromeNumber.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -29,6 +43,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -64,6 +85,10 @@
         <option value="$PROJECT_DIR$/6.Trees/avl.js" />
         <option value="$PROJECT_DIR$/6.Trees/test.js" />
         <option value="$PROJECT_DIR$/Problems/String Reversal/stringReversal.js" />
+        <option value="$PROJECT_DIR$/Problems/Palindrom/palindrom.js" />
+        <option value="$PROJECT_DIR$/Problems/Palindrom/palindromString.js" />
+        <option value="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" />
+        <option value="$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js" />
       </list>
     </option>
   </component>
@@ -104,6 +129,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,7 +153,7 @@
               <item name="js-ds-algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-ds-algo" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="String Reversal" type="462c0819:PsiDirectoryNode" />
+              <item name="Palindrom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,26 +185,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.stringReversal.js">
-    <configuration name="bst.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/6.Trees/bst.js" working-dir="$PROJECT_DIR$/6.Trees" />
+  <component name="RunManager" selected="Node.js.palindromeNumber.js">
     <configuration name="febo-with-dp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="febo-with-dp.js" working-dir="$PROJECT_DIR$/Interview-Questn-Soln" />
+    <configuration name="palindromeNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="palindromeNumber.js" working-dir="$PROJECT_DIR$/Problems/Palindrom" />
+    <configuration name="palindromeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" working-dir="$PROJECT_DIR$/Problems/Palindrom" />
     <configuration name="stringReversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="stringReversal.js" working-dir="$PROJECT_DIR$/Problems/String Reversal" />
-    <configuration name="test.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/3.LinkedList" />
     <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/6.Trees" />
     <list>
-      <item itemvalue="Node.js.test.js (1)" />
-      <item itemvalue="Node.js.bst.js" />
       <item itemvalue="Node.js.febo-with-dp.js" />
       <item itemvalue="Node.js.test.js" />
       <item itemvalue="Node.js.stringReversal.js" />
+      <item itemvalue="Node.js.palindromeString.js" />
+      <item itemvalue="Node.js.palindromeNumber.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.palindromeNumber.js" />
+        <item itemvalue="Node.js.palindromeString.js" />
         <item itemvalue="Node.js.stringReversal.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.febo-with-dp.js" />
-        <item itemvalue="Node.js.bst.js" />
-        <item itemvalue="Node.js.test.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -209,12 +237,12 @@
       <workItem from="1520818856364" duration="297000" />
       <workItem from="1521054438839" duration="2279000" />
       <workItem from="1522536294665" duration="147000" />
-      <workItem from="1522904523391" duration="1037000" />
+      <workItem from="1522904523391" duration="3310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45180000" />
+    <option name="totallyTimeSpent" value="47453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,7 +257,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" internal_type="SLIDING" order="0" type="SLIDING" weight="0.19547658" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" internal_type="SLIDING" order="0" weight="0.19498383" />
       <window_info anchor="bottom" id="TODO" internal_type="SLIDING" order="5" type="SLIDING" weight="0.3287483" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -526,8 +554,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/String Reversal/stringReversal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
