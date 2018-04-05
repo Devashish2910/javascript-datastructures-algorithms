@@ -1,6 +1,7 @@
 /*
 * Time Complexity = O(n)*/
-const stringReversal = (str) => {
+// First Solution
+const stringReversal1 = (str) => {
     myStack = [];
     resultString = "";
 
@@ -9,12 +10,23 @@ const stringReversal = (str) => {
     }
 
     myStack.forEach(cur => {
-        resultString = cur + resultString
-    })
+        resultString = cur + resultString;
+    });
 
-    return resultString
-
-
+    return resultString;
 }
 
-console.log(stringReversal("Devashish"))
+// Second Solution
+const stringReversal2= (str) => {
+    const tempArr = str.split('')
+    tempArr.reverse()
+    return tempArr.join('')
+}
+
+// Third Solution
+const stringReversal3 = (str) => {
+    return str.split('').reduce((prev, cur) => {
+        return cur + prev;
+    }, '');
+}
+console.log(stringReversal3("Devashish"))

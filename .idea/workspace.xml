@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43446461-1c61-4c47-88db-15ecf4bbb90c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/String Reversal/stringReversal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/String Reversal/stringReversal.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +19,11 @@
       <file leaf-file-name="stringReversal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Problems/String Reversal/stringReversal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="468">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,12 +209,12 @@
       <workItem from="1520818856364" duration="297000" />
       <workItem from="1521054438839" duration="2279000" />
       <workItem from="1522536294665" duration="147000" />
-      <workItem from="1522904523391" duration="571000" />
+      <workItem from="1522904523391" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44714000" />
+    <option name="totallyTimeSpent" value="45180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,7 +234,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" auto_hide="true" id="Version Control" order="8" weight="0.3287483" />
-      <window_info active="true" anchor="right" id="Run" internal_type="SLIDING" order="3" type="SLIDING" visible="true" weight="0.4911003" />
+      <window_info anchor="right" auto_hide="true" id="Run" internal_type="SLIDING" order="3" weight="0.4911003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24798061" />
       <window_info anchor="bottom" auto_hide="true" id="Terminal" order="9" weight="0.32827586" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -523,8 +526,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/String Reversal/stringReversal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="468">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
