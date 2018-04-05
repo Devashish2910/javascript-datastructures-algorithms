@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43446461-1c61-4c47-88db-15ecf4bbb90c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.Trees/avl.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.Trees/avl.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,26 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="palindromeString.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
+      <file leaf-file-name="bst.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.Trees/bst.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2431">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="palindromeNumber.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js">
+      <file leaf-file-name="avl.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6.Trees/avl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="742">
+              <caret line="102" column="65" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.Trees/Node.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -84,13 +86,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Interview-Questn-Soln/febo-with-dp.js" />
         <option value="$PROJECT_DIR$/6.Trees/bst.js" />
-        <option value="$PROJECT_DIR$/6.Trees/avl.js" />
         <option value="$PROJECT_DIR$/6.Trees/test.js" />
         <option value="$PROJECT_DIR$/Problems/String Reversal/stringReversal.js" />
         <option value="$PROJECT_DIR$/Problems/Palindrom/palindrom.js" />
         <option value="$PROJECT_DIR$/Problems/Palindrom/palindromString.js" />
         <option value="$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js" />
         <option value="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" />
+        <option value="$PROJECT_DIR$/Problems/Reversal/numberReversal.js" />
+        <option value="$PROJECT_DIR$/6.Trees/avl.js" />
       </list>
     </option>
   </component>
@@ -149,13 +152,7 @@
             <path>
               <item name="js-ds-algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-ds-algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-ds-algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-ds-algo" type="462c0819:PsiDirectoryNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="Palindrom" type="462c0819:PsiDirectoryNode" />
+              <item name="6.Trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,26 +184,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="febo-with-dp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="febo-with-dp.js" working-dir="$PROJECT_DIR$/Interview-Questn-Soln" />
+  <component name="RunManager" selected="Node.js.avl.js">
+    <configuration name="avl.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="avl.js" working-dir="$PROJECT_DIR$/6.Trees" />
+    <configuration name="numberReversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="numberReversal.js" working-dir="$PROJECT_DIR$/Problems/Reversal" />
     <configuration name="palindromeNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="palindromeNumber.js" working-dir="$PROJECT_DIR$/Problems/Palindrom" />
     <configuration name="palindromeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" working-dir="$PROJECT_DIR$/Problems/Palindrom" />
     <configuration name="stringReversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Problems/Reversal/stringReversal.js" working-dir="$PROJECT_DIR$/Problems/Reversal" />
-    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/6.Trees" />
     <list>
-      <item itemvalue="Node.js.febo-with-dp.js" />
-      <item itemvalue="Node.js.test.js" />
       <item itemvalue="Node.js.stringReversal.js" />
       <item itemvalue="Node.js.palindromeString.js" />
       <item itemvalue="Node.js.palindromeNumber.js" />
+      <item itemvalue="Node.js.numberReversal.js" />
+      <item itemvalue="Node.js.avl.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.avl.js" />
+        <item itemvalue="Node.js.numberReversal.js" />
         <item itemvalue="Node.js.palindromeString.js" />
         <item itemvalue="Node.js.palindromeNumber.js" />
         <item itemvalue="Node.js.stringReversal.js" />
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.febo-with-dp.js" />
       </list>
     </recent_temporary>
   </component>
@@ -239,12 +236,13 @@
       <workItem from="1520818856364" duration="297000" />
       <workItem from="1521054438839" duration="2279000" />
       <workItem from="1522536294665" duration="147000" />
-      <workItem from="1522904523391" duration="3666000" />
+      <workItem from="1522904523391" duration="4784000" />
+      <workItem from="1522963358403" duration="4949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47809000" />
+    <option name="totallyTimeSpent" value="53876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,24 +255,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info auto_hide="true" content_ui="combo" id="Project" internal_type="SLIDING" order="0" weight="0.19498383" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" internal_type="SLIDING" order="0" weight="0.19417475" />
       <window_info anchor="bottom" id="TODO" internal_type="SLIDING" order="5" type="SLIDING" weight="0.3287483" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" auto_hide="true" id="Version Control" order="8" weight="0.3287483" />
       <window_info anchor="right" auto_hide="true" id="Run" internal_type="SLIDING" order="3" weight="0.4911003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24798061" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Terminal" order="9" visible="true" weight="0.32827586" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="9" weight="0.32827586" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39889959" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +288,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Reversal/numberReversal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6.Trees/avl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -516,22 +545,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Trees/Node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/Interview-Questn-Soln/febo-with-dp.js" />
-    <entry file="file://$PROJECT_DIR$/6.Trees/bst.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6.Trees/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -546,17 +561,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6.Trees/avl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/String Reversal/stringReversal.js">
+    <entry file="file://$PROJECT_DIR$/Problems/Reversal/stringReversal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Reversal/numberReversal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -566,20 +591,31 @@
     <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
+    <entry file="file://$PROJECT_DIR$/6.Trees/Node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Trees/bst.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2431">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.Trees/avl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="102" column="65" selection-start-line="102" selection-start-column="65" selection-end-line="102" selection-end-column="65" />
         </state>
       </provider>
     </entry>
