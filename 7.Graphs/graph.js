@@ -102,6 +102,31 @@ class Graph {
             predecessors: pred
         }
     }
+
+    // Depth First Search traversal
+    dfs(callback) {
+        const color = this.initializeColor();
+
+        for (let curVertex of this.vertices) {
+            if (color[curVertex] === "WHITE") {
+                this.dfsHelper(curVertex, callback, color);
+            }
+        }
+    }
+
+    // Helper method for DFS
+    dfsHelper(curVertex, callback, color) {
+        color[curVertex] = "grey";
+        callback(curVertex);
+        const neighbours = this.adjList.get(curVertex);
+
+        for (let neighbor of neighbours) {
+            if (color[neighbor] === "WHITE") {
+                this.dfsHelper(neighbor, callback, color);
+            }
+        }
+        color[curVertex] = "black";
+    }
 }
 
 /*------------------------------------------------------------*/
@@ -132,6 +157,8 @@ const print = (el) => {
 
 graph.bfs('A', print);
 console.log("\n");
+console.log("DFS");
+graph.dfs(print);
 /*------------------------------------------------------------*/
 // Find distance of all vertices from a vertex and predecessors of all vertices
 console.log("Find distance of all vertices from a vertex and predecessors of all vertices")
