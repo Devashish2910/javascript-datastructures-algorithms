@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43446461-1c61-4c47-88db-15ecf4bbb90c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/7.Graphs/graph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.Graphs/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.Graphs/graph.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +20,18 @@
       <file leaf-file-name="graph.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/7.Graphs/graph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="320">
+              <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7.Graphs/test.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
@@ -88,6 +93,7 @@
         <option value="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" />
         <option value="$PROJECT_DIR$/Problems/Reversal/numberReversal.js" />
         <option value="$PROJECT_DIR$/6.Trees/avl.js" />
+        <option value="$PROJECT_DIR$/7.Graphs/test.js" />
         <option value="$PROJECT_DIR$/7.Graphs/graph.js" />
       </list>
     </option>
@@ -179,26 +185,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.avl.js">
+  <component name="RunManager" selected="Node.js.graph.js">
     <configuration name="avl.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="avl.js" working-dir="$PROJECT_DIR$/6.Trees" />
+    <configuration name="graph.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/7.Graphs" />
     <configuration name="numberReversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="numberReversal.js" working-dir="$PROJECT_DIR$/Problems/Reversal" />
-    <configuration name="palindromeNumber.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="palindromeNumber.js" working-dir="$PROJECT_DIR$/Problems/Palindrom" />
     <configuration name="palindromeString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Problems/Palindrom/palindromeString.js" working-dir="$PROJECT_DIR$/Problems/Palindrom" />
-    <configuration name="stringReversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Problems/Reversal/stringReversal.js" working-dir="$PROJECT_DIR$/Problems/Reversal" />
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/7.Graphs" />
     <list>
-      <item itemvalue="Node.js.stringReversal.js" />
       <item itemvalue="Node.js.palindromeString.js" />
-      <item itemvalue="Node.js.palindromeNumber.js" />
       <item itemvalue="Node.js.numberReversal.js" />
       <item itemvalue="Node.js.avl.js" />
+      <item itemvalue="Node.js.graph.js" />
+      <item itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.graph.js" />
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.avl.js" />
         <item itemvalue="Node.js.numberReversal.js" />
         <item itemvalue="Node.js.palindromeString.js" />
-        <item itemvalue="Node.js.palindromeNumber.js" />
-        <item itemvalue="Node.js.stringReversal.js" />
       </list>
     </recent_temporary>
   </component>
@@ -232,12 +238,12 @@
       <workItem from="1521054438839" duration="2279000" />
       <workItem from="1522536294665" duration="147000" />
       <workItem from="1522904523391" duration="4784000" />
-      <workItem from="1522963358403" duration="5714000" />
+      <workItem from="1522963358403" duration="10672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54641000" />
+    <option name="totallyTimeSpent" value="59599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,26 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/Reversal/numberReversal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeNumber.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -614,10 +600,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Reversal/numberReversal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Palindrom/palindromeString.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.Graphs/test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/7.Graphs/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="320">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
