@@ -5,6 +5,7 @@ class Graph {
     constructor() {
         this.vertices = [];
         this.adjList = new Map();
+        this.time = 0;
     }
 
     // add vertices
@@ -17,6 +18,11 @@ class Graph {
     addEdge(v, w) {
         this.adjList.get(v).push(w);
         this.adjList.get(w).push(v);
+    }
+
+    // add directed edges for existing vertices
+    addDirectedEdge(v, w) {
+        this.adjList.get(v).push(w);
     }
 
     // print graph in adjacent list form
@@ -127,6 +133,49 @@ class Graph {
         }
         color[curVertex] = "black";
     }
+
+    // Find Discovery and Finished Time of Vertex using DFS
+    dfsDF() {
+
+        let discovery = [],
+            finished = [],
+            color = this.initializeColor();
+
+        for (let vertex of this.vertices) {
+            discovery[vertex] = 0;
+            finished[vertex] = 0;
+        }
+
+        for (let vertex of this.vertices) {
+            if (color[vertex] === "WHITE") {
+                this.dfsDFHelper(vertex, color, discovery, finished);
+            }
+        }
+
+        return {
+            discovery,
+            finished
+        }
+
+    }
+
+    dfsDFHelper(vertex, color, d, f) {
+
+        color[vertex] = "grey";
+        console.log(`Discovered: ${vertex}`);
+        d[vertex] = ++this.time;
+        console.log(`Time: ${this.time}`)
+        const neighbours = this.adjList.get(vertex);
+
+        for(let neighbor of neighbours) {
+            if (color[neighbor] === "WHITE") {
+                this.dfsDFHelper(neighbor, color, d, f);
+            }
+        }
+
+        color[vertex] = "black";
+        f[vertex] = ++this.time;
+    }
 }
 
 /*------------------------------------------------------------*/
@@ -192,4 +241,6 @@ const paths = (from, predList) => {
 
 paths('A', res.predecessors);
 console.log("\n");
+
+const DF = graph.dfsDF();
 /*------------------------------------------------------------*/
