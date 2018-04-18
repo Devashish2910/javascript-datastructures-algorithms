@@ -76,17 +76,43 @@ class QueueFromTwoStack {
     }
 }
 
+class QueueFromOneStack {
+    constructor() {
+        this.data = []
+    }
+
+    enqueue(val) {
+        this.data.push(val);
+    }
+
+    dequeue() {
+        let removedEl, cur_val;
+        if (this.data.length === 1) {
+            removedEl = this.data.pop();
+            return removedEl
+        }
+        cur_val = this.data.pop();
+        removedEl = this.dequeue();
+        this.data.push(cur_val);
+        return removedEl
+    }
+}
+
 //const myQueue = new QueueFromTwoStack();
-//myQueue.enqueue(1);
-//myQueue.enqueue(2);
-//myQueue.enqueue(3);
-//
-//myQueue.dequeue();
+const myQueue = new QueueFromOneStack()
+myQueue.enqueue(1);
+myQueue.enqueue(2);
+myQueue.enqueue(3);
+
+console.log(myQueue.dequeue());
+console.log(myQueue.dequeue());
+console.log(myQueue.data);
 //myQueue.dequeue();
 //
 //console.log("Size:" + myQueue.size()); //1
 //console.log("Top:" + myQueue.top()); //3
 //
+
 
 
 
